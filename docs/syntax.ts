@@ -290,7 +290,7 @@ function findCodeSegments(container : Body | TableCell) : Array<CodeSegment> {
         let modeLine = text.split("\r")[0].trim();
         if (modeLine == "```") modeLine += " "
         let mode = modeLine.substring("``` ".length);
-        if (mode === "") mode = "none";
+        if (mode === "") mode = "solidity";
         startCodeSegment(mode);
       } else {
         accumulated.push(paragraph);

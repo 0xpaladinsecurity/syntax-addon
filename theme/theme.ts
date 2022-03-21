@@ -98,6 +98,7 @@ const SPAN_COLORS = [
 ];
 
 const MODES = {
+  "solidity" : "#f2f8ff",
   "none" : "#f7f7f7",  // No specified mode.
   "toit" : "#f2f8ff",
   "dart" : "#f7fff7",
